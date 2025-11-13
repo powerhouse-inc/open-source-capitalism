@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export function Header() {
   return (
-    <header className="fixed top-0 right-0 z-50 p-6 sm:p-8">
+    <header className="fixed top-0 left-0 z-50 p-6 sm:p-8">
       <Link
         href="https://www.powerhouse.inc"
         target="_blank"
