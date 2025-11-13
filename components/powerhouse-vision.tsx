@@ -7,10 +7,10 @@ export function PowerhouseVision() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-8 leading-tight">The Powerhouse Vision</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-8 leading-tight text-center">The Powerhouse Vision</h2>
 
         {/* Top block - intro paragraphs */}
-        <div className="space-y-4 max-w-3xl mb-12">
+        <div className="space-y-4 max-w-3xl mx-auto mb-12 text-center">
           <p className="text-lg text-muted-foreground leading-relaxed">
             Powerhouse is building the open alternative to Big Tech for the age of AI. Our vision is a world where networks of people, machines, and institutions can coordinate at scale without giving up ownership, privacy, or control.
           </p>
