@@ -9,7 +9,7 @@ export function JoinMovement() {
             src="https://paragraph.com/@powerhouse/embed?minimal=true"
             width="480"
             height="45"
-            style={{ border: "1px solid #EEE", background: "white" }}
+            style={{ border: "none", background: "transparent" }}
             frameBorder="0"
             scrolling="no"
             title="Subscribe to Powerhouse"

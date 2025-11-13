@@ -5,8 +5,8 @@ export function Footer() {
   return (
     <footer className="relative px-4 py-12 sm:px-6 lg:px-8 border-t border-white/10 mt-12">
       <div className="max-w-5xl mx-auto">
-        {/* Main footer content - two column grid */}
-        <div className="grid lg:grid-cols-2 gap-12 mb-8">
+        {/* Main footer content - flex layout */}
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-8">
           {/* Left section: Navigation */}
           <div>
             <h3 className="text-xs font-medium tracking-wider uppercase text-white/50 mb-4">Network</h3>
@@ -47,7 +47,7 @@ export function Footer() {
           </div>
 
           {/* Right section: Social */}
-          <div>
+          <div className="lg:ml-auto">
             <h3 className="text-xs font-medium tracking-wider uppercase text-white/50 mb-4">Community</h3>
             <div className="flex gap-4">
               <Link
