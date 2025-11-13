@@ -2,44 +2,47 @@ import { Button } from "@/components/ui/button"
 
 export function PowerhouseVision() {
   return (
-    <section id="powerhouse-vision" className="relative px-4 py-24 sm:px-6 lg:px-8">
+    <section id="powerhouse-vision" className="relative px-6 py-24 sm:px-8 lg:px-12">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
 
-      <div className="relative max-w-4xl mx-auto">
+      <div className="relative max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-8 leading-tight">The Powerhouse Vision</h2>
 
-        <div className="space-y-6 mb-12">
-          <p className="text-lg text-muted-foreground leading-relaxed max-w-[85ch]">
-            Open-Source Capitalism is the economic foundation of the Scalable Network Organization model. Powerhouse
-            builds the software and legal systems that make this work, enabling decentralized operations, transparent
-            capital flows, and sustainable growth for open networks.
+        {/* Top block - intro paragraphs */}
+        <div className="space-y-4 max-w-3xl mb-12">
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            Powerhouse is building the open alternative to Big Tech for the age of AI. Our vision is a world where networks of people, machines, and institutions can coordinate at scale without giving up ownership, privacy, or control.
           </p>
-
-          <p className="text-lg text-muted-foreground leading-relaxed max-w-[85ch]">
-            Achra connects builders, investors, and operators so open collaboration can scale like a business without
-            losing its openness.
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            Open Source Capitalism is the economic foundation for this vision and the basis of the Scalable Network Organization model. It focuses on routing value from real products and services back into shared infrastructure, contributors, and public goods instead of locking it inside centralized platforms.
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-start gap-4">
-          <Button
-            variant="outline"
-            className="rounded-full border-cyan-500/30 hover:bg-cyan-500/10 hover:border-cyan-500/50 transition-all bg-transparent"
-          >
-            Explore SNOs
-          </Button>
-          <Button
-            variant="outline"
-            className="rounded-full border-cyan-500/30 hover:bg-cyan-500/10 hover:border-cyan-500/50 transition-all bg-transparent"
-          >
-            Launch an RGH or OCF
-          </Button>
-          <Button
-            variant="outline"
-            className="rounded-full border-cyan-500/30 hover:bg-cyan-500/10 hover:border-cyan-500/50 transition-all bg-transparent"
-          >
-            Explore on Achra
-          </Button>
+        {/* Two product cards */}
+        <div className="grid sm:grid-cols-2 gap-6">
+          <div className="bg-white/2 border border-white/5 rounded-2xl p-6 backdrop-blur flex flex-col">
+            <h3 className="text-xl font-semibold mb-3 leading-tight">Achra</h3>
+            <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">
+              Achra is the global marketplace for coordination, where networks design workflows, route payments, and manage contributors across many entities as if they were one organization. Use Achra to run day to day operations for SNOs, DAOs, and other distributed teams.
+            </p>
+            <Button
+              className="rounded-full bg-cyan-500 hover:bg-cyan-600 text-black font-medium shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] transition-all w-full sm:w-auto"
+            >
+              Explore Achra
+            </Button>
+          </div>
+
+          <div className="bg-white/2 border border-white/5 rounded-2xl p-6 backdrop-blur flex flex-col">
+            <h3 className="text-xl font-semibold mb-3 leading-tight">Vetra</h3>
+            <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">
+              Vetra turns documents into portable, auditable, API ready data so AI agents and applications can plug into the same shared record of agreements, operations, and history. Use Vetra to keep your network's contracts, policies, and processes in sync across tools.
+            </p>
+            <Button
+              className="rounded-full bg-cyan-500 hover:bg-cyan-600 text-black font-medium shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] transition-all w-full sm:w-auto"
+            >
+              Explore Vetra
+            </Button>
+          </div>
         </div>
       </div>
     </section>

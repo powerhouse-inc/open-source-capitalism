@@ -4,19 +4,19 @@ export function TheProblem() {
   const problems = [
     {
       title: "Capitalism's force",
-      description: "High productivity with inequality and neglected commons",
+      description: "High productivity with inequality and neglected commons, where profits concentrate in private firms while shared infrastructure, communities, and ecosystems are treated as expendable inputs.",
     },
     {
       title: "Open source underfunded",
-      description: "Critical infrastructure that relies on donations or sponsors",
+      description: "Critical digital infrastructure relies on donations or sponsors, leaving maintainers burned out, upgrades delayed, and essential systems vulnerable to both neglect and corporate capture.",
     },
     {
       title: "Weak incentives for builders",
-      description: "Contributors rarely capture the value they create",
+      description: "Contributors rarely capture the value they create, so the most impactful work for the commons is often unpaid, unstable, or sidelined in favor of proprietary projects that can raise capital.",
     },
     {
       title: "DAOs and DeFi underperform",
-      description: "Decentralized in name yet fragile in structure",
+      description: "Decentralized in name yet fragile in structure and revenue, with governance tokens that drift, treasuries that sit idle, and no reliable way to fund long term maintenance or real world operations.",
     },
   ]
 
