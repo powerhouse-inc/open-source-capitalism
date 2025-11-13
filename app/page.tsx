@@ -1,3 +1,4 @@
+import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { StickyTOC } from "@/components/sticky-toc"
 import { TheIdea } from "@/components/the-idea"
@@ -14,6 +15,8 @@ export default function Page() {
     <div className="relative min-h-screen bg-background">
       {/* Grid background */}
       <div className="fixed inset-0 bg-[linear-gradient(to_right,#1a1a1a_1px,transparent_1px),linear-gradient(to_bottom,#1a1a1a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
+
+      <Header />
 
       <div className="relative">
         <StickyTOC />

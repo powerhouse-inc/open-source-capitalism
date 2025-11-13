@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function PowerhouseVision() {
   return (
@@ -21,7 +22,15 @@ export function PowerhouseVision() {
         {/* Two product cards */}
         <div className="grid sm:grid-cols-2 gap-6">
           <div className="bg-white/2 border border-white/5 rounded-2xl p-6 backdrop-blur flex flex-col">
-            <h3 className="text-xl font-semibold mb-3 leading-tight">Achra</h3>
+            <div className="mb-6">
+              <Image
+                src="/achra-logo.svg"
+                alt="Achra"
+                width={120}
+                height={24}
+                className="h-6 w-auto"
+              />
+            </div>
             <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">
               Achra is the global marketplace for coordination, where networks design workflows, route payments, and manage contributors across many entities as if they were one organization. Use Achra to run day to day operations for SNOs, DAOs, and other distributed teams.
             </p>
@@ -33,7 +42,15 @@ export function PowerhouseVision() {
           </div>
 
           <div className="bg-white/2 border border-white/5 rounded-2xl p-6 backdrop-blur flex flex-col">
-            <h3 className="text-xl font-semibold mb-3 leading-tight">Vetra</h3>
+            <div className="mb-6">
+              <Image
+                src="/vetra-logo.svg"
+                alt="Vetra"
+                width={135}
+                height={28}
+                className="h-7 w-auto"
+              />
+            </div>
             <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">
               Vetra turns documents into portable, auditable, API ready data so AI agents and applications can plug into the same shared record of agreements, operations, and history. Use Vetra to keep your network's contracts, policies, and processes in sync across tools.
             </p>
