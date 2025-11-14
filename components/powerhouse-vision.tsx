@@ -35,9 +35,12 @@ export function PowerhouseVision() {
               Achra is the global marketplace for coordination, where networks design workflows, route payments, and manage contributors across many entities as if they were one organization. Use Achra to run day to day operations for SNOs, DAOs, and other distributed teams.
             </p>
             <Button
+              asChild
               className="rounded-full bg-cyan-500 hover:bg-cyan-600 text-black font-medium shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] transition-all w-full sm:w-auto"
             >
-              Explore Achra
+              <a href="https://achra.com" target="_blank" rel="noopener noreferrer">
+                Explore Achra
+              </a>
             </Button>
           </div>
 
@@ -55,9 +58,12 @@ export function PowerhouseVision() {
               Vetra turns documents into portable, auditable, API ready data so AI agents and applications can plug into the same shared record of agreements, operations, and history. Use Vetra to keep your network's contracts, policies, and processes in sync across tools.
             </p>
             <Button
+              asChild
               className="rounded-full bg-cyan-500 hover:bg-cyan-600 text-black font-medium shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] transition-all w-full sm:w-auto"
             >
-              Explore Vetra
+              <a href="https://vetra.io" target="_blank" rel="noopener noreferrer">
+                Explore Vetra
+              </a>
             </Button>
           </div>
         </div>
