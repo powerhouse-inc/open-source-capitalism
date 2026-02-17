@@ -13,13 +13,14 @@ export function TheStakes() {
               This is already happening
             </p>
             <p className="text-lg text-white/90 leading-relaxed mb-4">
-              When OpenAI acqui-hired the OpenClaw robotics team, the open-source community that built the
-              project got nothing. Years of contributions — absorbed by a platform, with no mechanism
-              to share in the value they created.
+              OpenAI&apos;s acquisition of the OpenClaw team isn&apos;t the scandal — it&apos;s the symptom.
+              Open source today lacks both sustainable incentives and organizations that can scale
+              into real institutions. When the only competitive offer is a Big Tech comp package,
+              that&apos;s not a talent problem — it&apos;s a structural one.
             </p>
             <p className="text-base text-white/70 leading-relaxed">
-              This is the pattern Open-Source Capitalism is designed to break. When contributors can earn
-              equity-like stakes in the networks they build, value stays distributed — not extracted.{" "}
+              Open-Source Capitalism provides the missing economic layer: contributor equity, revenue
+              sharing, and investable network structures that make staying independent actually viable.{" "}
               <Link
                 href="https://scalablenetworks.org"
                 target="_blank"
