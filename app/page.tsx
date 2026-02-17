@@ -23,12 +23,12 @@ export default function Page() {
         <StickyTOC />
         <Hero />
         <TheIdea />
+        <TheStakes />
         <WhyItMatters />
         <TheProblem />
         <FourPrinciples />
         <HowItWorks />
         <PowerhouseVision />
-        <TheStakes />
         <JoinMovement />
         <Footer />
       </div>
