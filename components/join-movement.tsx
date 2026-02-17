@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button"
+import Link from "next/link"
+
 export function JoinMovement() {
   return (
     <section id="join-the-movement" className="relative px-4 py-24 sm:px-6 lg:px-8">
@@ -8,15 +11,23 @@ export function JoinMovement() {
           Open-source capitalism is a living framework. Follow Powerhouse to stay in the loop as we ship the tools and structures that make it real.
         </p>
 
-        {/* Paragraph.com newsletter embed */}
-        <div className="flex justify-center">
-          <iframe
-            src="https://paragraph.com/@powerhouse/embed?minimal=true"
-            width="480"
-            height="45"
-            style={{ border: "1px solid rgba(255,255,255,0.1)", background: "transparent", borderRadius: "8px" }}
-            scrolling="no"
-          />
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link href="https://scalablenetworks.org" target="_blank" rel="noopener noreferrer">
+            <Button
+              variant="outline"
+              className="rounded-full border-cyan-500/30 hover:bg-cyan-500/10 hover:border-cyan-500/50 transition-all bg-transparent"
+            >
+              Explore Scalable Network Organizations
+            </Button>
+          </Link>
+          <Link href="https://achra.com" target="_blank" rel="noopener noreferrer">
+            <Button
+              variant="outline"
+              className="rounded-full border-cyan-500/30 hover:bg-cyan-500/10 hover:border-cyan-500/50 transition-all bg-transparent"
+            >
+              Explore Achra
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

@@ -23,11 +23,16 @@ export function Header() {
         </Link>
       </header>
 
-      {/* OSC mark - top right */}
+      {/* OSC logo - top right */}
       <div className="fixed top-0 right-0 z-50 p-6 sm:p-8">
-        <span className="text-lg sm:text-xl font-bold tracking-tight text-white/90">
-          OSC
-        </span>
+        <Image
+          src="/osc-logo.svg"
+          alt="Open Source Capitalism"
+          width={356}
+          height={32}
+          className="h-5 w-auto sm:h-6"
+          priority
+        />
       </div>
     </>
   )
