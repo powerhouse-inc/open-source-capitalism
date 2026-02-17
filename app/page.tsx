@@ -7,6 +7,7 @@ import { TheProblem } from "@/components/the-problem"
 import { FourPrinciples } from "@/components/four-principles"
 import { HowItWorks } from "@/components/how-it-works"
 import { PowerhouseVision } from "@/components/powerhouse-vision"
+import { TheStakes } from "@/components/the-stakes"
 import { JoinMovement } from "@/components/join-movement"
 import { Footer } from "@/components/footer"
 
@@ -27,6 +28,7 @@ export default function Page() {
         <FourPrinciples />
         <HowItWorks />
         <PowerhouseVision />
+        <TheStakes />
         <JoinMovement />
         <Footer />
       </div>

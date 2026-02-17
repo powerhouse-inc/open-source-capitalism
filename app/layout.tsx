@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Open-Source Capitalism | Powerhouse",
   description:
     "An economic framework that makes open networks investable and sustainable by aligning markets with the commons.",
-  generator: "v0.app",
+
 }
 
 export default function RootLayout({

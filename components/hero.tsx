@@ -15,7 +15,7 @@ export function Hero() {
 
         <div className="max-w-2xl mx-auto space-y-6">
           <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed text-pretty">
-            People assume "if it's open, it cannot capture value." Open-Source Capitalism shows how open networks fund themselves while staying open. It aligns markets with the commons so value created in public flows back to the people who build, maintain, and share.
+            People assume open means unprofitable. Open-Source Capitalism proves otherwise — open networks can fund themselves while staying open. Value created in public flows back to the people who build, maintain, and share.
           </p>
         </div>
       </div>
