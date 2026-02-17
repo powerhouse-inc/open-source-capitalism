@@ -27,7 +27,7 @@ export function TheStakes() {
               Open-Source Capitalism provides the missing economic layer: contributor equity, revenue
               sharing, and investable network structures that make staying independent actually viable.{" "}
               <Link
-                href="https://scalablenetworks.org"
+                href="https://scalablenetwork.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cyan-400 hover:text-cyan-300 underline underline-offset-4 decoration-cyan-400/40 hover:decoration-cyan-300 transition-colors"

@@ -12,7 +12,7 @@ export function JoinMovement() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="https://scalablenetworks.org" target="_blank" rel="noopener noreferrer">
+          <Link href="https://scalablenetwork.org" target="_blank" rel="noopener noreferrer">
             <Button
               variant="outline"
               className="rounded-full border-cyan-500/30 hover:bg-cyan-500/10 hover:border-cyan-500/50 transition-all bg-transparent"
